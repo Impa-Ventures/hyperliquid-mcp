@@ -90,6 +90,9 @@ To add this MCP server to Claude Desktop:
     "hyperliquid-mcp": {
       "command": "npx",
       "args": ["-y", "hyperliquid-mcp"]
+    },
+    "env": {
+      "PRIVATE_KEY": "your_private_key_here"
     }
   }
 }
